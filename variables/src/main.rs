@@ -48,8 +48,8 @@ fn main() {
     println!("tup.0={}", tup.0);
 
     // Array
-    let x = [1, 2, 3, 4, 5];
-    let x = [2;5];
+    let _x = [1, 2, 3, 4, 5];
+    let x = [2; 5];
     println!("x[0]={}", x[0]);
 
     let a = [3; 5];

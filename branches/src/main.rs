@@ -1,5 +1,23 @@
 fn main() {
-    println!("Hello, world! to Rust's control flow!");
+    println!("Hello, world! Welcome to Rust Control Flow!");
+
+    /* println!();
+    _showcase_if_condition(); */
+
+    println!();
+    _showcase_loop_control();
+}
+
+fn _showcase_loop_control() {
+    println!("B. Loop control examples:");
+
+    loop {
+        println!("loop again");
+    }
+}
+
+fn _showcase_if_condition() {
+    println!("A. If condition examples:");
 
     let x = 10;
     println!("x = {}", x);
@@ -18,7 +36,7 @@ fn main() {
         println!("x is >= than 10");
     }
 
-    let condition=false;
-    let y = if condition {5} else {10};
+    let condition = false;
+    let y = if condition { 5 } else { 10 };
     println!("y = {}", y);
 }
