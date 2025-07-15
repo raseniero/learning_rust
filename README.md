@@ -20,4 +20,6 @@ For beginners who want to learn Rust, a great resource is the official documenta
 
 ### YouTube Resources
 
-*   [Let's Get Rusty](https://www.youtube.com/@letsgetrusty)
+*   [ULTIMATE Rust Lang Tutorial!](https://www.youtube.com/watch?v=OX9HJsJUDxA&list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8)
+*   [Rust Crash Course for Beginners (2025)](https://www.youtube.com/watch?v=2Qb-5ID5O5I)
+*   [Rust Programming Full Course | Learn ⚙️ in 2024](https://www.youtube.com/watch?v=rQ_J9WH6CGk)
