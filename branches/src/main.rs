@@ -11,9 +11,50 @@ fn main() {
 fn _showcase_loop_control() {
     println!("B. Loop control examples:");
 
-    loop {
-        println!("loop again");
+    let mut counter = 0;
+    let result = loop {
+        counter += 1;
+        println!("counter={}", counter);
+        if counter == 10 {
+            println!("breaking the loop");
+            break counter * 1;
+        }
+    };
+
+    println!("Result of loop: {}", result);
+
+    let mut count = 0;
+
+    'counting_up: loop {
+        println!("Counting up: {}", count);
+        count += 1;
+        if count == 10 {
+            break;
+        }
     }
+
+    let mut number = 3;
+    while number != 0 {
+        println!("{}!", number);
+        number -= 1;
+    }
+    println!("RISE!");
+
+    let mut j = 0;
+    while j < 5{
+        println!("j = {}", j);
+        j += 1;
+    }
+
+    let a=[1,2,3,4,5];
+    for i in a {
+        println!("i = {}", i);
+    }
+
+    for count in (1..=5).rev() {
+        println!("count = {}", count);
+    }
+
 }
 
 fn _showcase_if_condition() {
@@ -21,7 +62,7 @@ fn _showcase_if_condition() {
 
     let x = 10;
     println!("x = {}", x);
-
+   
     if x > 10 {
         println!("x is > than 10");
     } else {
